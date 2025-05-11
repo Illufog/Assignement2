@@ -2,4 +2,4 @@
 
 DELPECH Chloé / BOURDON Maxence / DESCEVEUX Rémy / ZINET Maxime
 
-https://hub.gesis.mybinder.org/user/illufog-assignement2-2skvw4fm/lab/workspaces/auto-S
+https://mybinder.org/v2/gh/Illufog/Assignement2/HEAD
