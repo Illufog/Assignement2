@@ -1393,11 +1393,8 @@ def tc2ss(TC):
     u = pd.concat([b, f0, fc])
 
     # DAE (Differential Algebraic Equations), Eq.(13)
-    try :
-        K = -A.T @ G @ A
-        Kb = A.T @ G
-    except Exception:
-        pass  # ignore complètement toute erreur
+    K = -A.T @ G @ A
+    Kb = A.T @ G
     # Partition K and Kb based on values of diagonal of C, Eq.(14)
     K00 = K.loc[C_diag == 0, C_diag == 0]
     K01 = K.loc[C_diag == 0, C_diag != 0]
